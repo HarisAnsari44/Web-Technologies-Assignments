@@ -1,0 +1,68 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(64, 112, 128);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    max-width: 550px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.screen { display: none; }
+.screen.active { display: block; }
+
+h1 { color:rgb(70, 171, 75); }
+h2 { color:rgb(19, 16, 21); }
+h3 { color:rgb(77, 170, 56); }
+p { font-size: 1.1em; }
+
+button {
+    background:rgb(30, 123, 151);
+    color:white;
+    padding:12px 22px;
+    border-radius:6px;
+}
+
+button:hover { background:rgb(2, 71, 174); }
+.hidden { display:none; }
+
+.answers {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+.answer-btn {
+    flex:1 1 45%;
+    min-width:160px;
+    padding:12px;
+    background:rgb(198, 196, 70);
+    border:3 solid black;
+    font-size:1em;
+    cursor:pointer;
+}
+
+.correct { background:rgb(22, 148, 45) !important; color:white; }
+.wrong { background:rgb(225, 26, 26) !important; color:white; }
+
+.feedback {
+    font-weight:bold;
+    min-height:25px;
+    margin-top:10px;
+}
+
+.score {
+    margin-top: 15px;
+    color: grey;
+}
+
