@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 20px 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Text block */
+#textBlock {
+    padding: 20px;
+    width: 200px;
+    background-color: #ffeb3b;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Box */
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: #2196F3;
+    border-radius: 10px;
+}
+
+/* Movable Box */
+#moveBox {
+    width: 150px;
+    height: 50px;
+    background-color: #f44336;
+    line-height: 50px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
