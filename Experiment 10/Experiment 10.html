@@ -2,14 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="Experiment 10.css">
 </head>
 <body>
-    <h2 class="main">STUDENT MANAGEMENT SYSTEM</h2>
-    <h5 class="name"> Name: </h5>
-    <h5 class="rn"> Roll number : </h5>
-    <h5 class="cgpa"> CGPA: </h5>
-    <a href="../index.html" class="hov">Back To Home Page</a>
+
+<h1>Student Management System</h1>
+
+<!-- Form -->
+<div class="form-box">
+    <label>Name</label>
+    <input type="text" id="name">
+
+    <label>Student ID</label>
+    <input type="text" id="sid">
+
+    <label>Department</label>
+    <input type="text" id="dept">
+
+    <label>CGPA</label>
+    <input type="number" id="cgpa" min="0" max="4" step="0.01">
+
+    <button id="addBtn">Add Student</button>
+    <button id="updateBtn">Update Student</button>
+</div>
+
+<!-- Search -->
+<div class="search-box">
+    <input type="text" id="search" placeholder="Search student...">
+</div>
+
+<!-- Table -->
+<table id="studentTable">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Dept</th>
+        <th>CGPA</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+
+    <tbody></tbody>
+</table>
+
+<script src="Experiment 10.js"></script>
+
 </body>
 </html>

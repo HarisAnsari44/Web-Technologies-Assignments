@@ -5,7 +5,7 @@ document.getElementById('colorBtn').addEventListener('click', function() {
     document.body.style.backgroundColor = randomColor;
 });
 
-// Modify text on hover
+
 document.getElementById('textBlock').addEventListener('mouseenter', function() {
     this.textContent = "You hovered over me!";
     this.style.backgroundColor = '#ff5722';
