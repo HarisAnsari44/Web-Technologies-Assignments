@@ -1,4 +1,3 @@
-// Task 1: Ask Name & Registration ID
 function task1() {
     let name = prompt("Enter your Name:");
     let reg = prompt("Enter your Registration ID:");
@@ -6,13 +5,11 @@ function task1() {
     alert("Name: " + name + "\nRegistration ID: " + reg);
 }
 
-
-// Task 2: Arithmetic + Comparison
 function task2() {
     let num1 = prompt("Enter first number:");
     let num2 = prompt("Enter second number:");
 
-    // Convert to numbers
+
     num1 = Number(num1);
     num2 = Number(num2);
 
